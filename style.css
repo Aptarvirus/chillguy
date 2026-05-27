@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -6,9 +5,9 @@
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace; 
+    font-family: 'Courier New', Courier, monospace;
     line-height: 1.6;
-    color: #2c312c; 
+    color: #2c312c;
     background-color: rgb(138, 142, 126);
 }
 
@@ -40,7 +39,9 @@ nav a:hover {
     color: #00ff00;
 }
 
+
 /* Content Sections */
+
 main {
     max-width: 800px;
     margin: 2rem auto;
@@ -66,21 +67,26 @@ footer {
     color: #222;
     font-size: 0.8rem;
 }
+
 .chill-guy-img {
     max-width: 300px;
     height: auto;
     filter: drop-shadow(20px 40px 60px rgba(58, 56, 56, 0.1));
-    
-
     animation: sway 40s ease-in-out infinite;
 }
 
-
 @keyframes sway {
-    0%, 100% {
+    0%,
+    100% {
         transform: rotate(-2deg);
     }
     50% {
         transform: rotate(2deg);
     }
+}
+
+history.html {
+    background-color: rgb(138, 142, 126);
+    text-align: center;
+    text-anchor: #52ac52;
 }
